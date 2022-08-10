@@ -1,0 +1,299 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.wrapper {
+  background-color: rgba(0, 0, 0, 0.3);
+  min-height: 100%;
+  overflow: hidden;
+}
+h3 {
+  font-size: 20px;
+}
+/* header - start */
+
+.header {
+  background: url(./media/resume_headings.jpg);
+  background-repeat: no-repeat;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+a {
+  color: aqua;
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  opacity: 0.5;
+  width: 980px;
+  padding: 25px 50px;
+  margin: 20px 0px;
+}
+.navbar__item {
+  color: white;
+  border: 2px solid green;
+  border-radius: 4px;
+  width: 100px;
+
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-size: 14px;
+}
+/* header - end */
+/* section info start */
+.section {
+  background: url(./media/416_116943_190919tipsforonlinesubmission_TopResume_hero.jpg);
+  opacity: 0.8;
+  display: flex;
+  flex-direction: row;
+}
+.section-left {
+  display: flex;
+  justify-content: space-around;
+  width: 440px;
+  height: 380px;
+  margin: 60px;
+}
+.section-left__photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: white;
+  padding: 10px;
+}
+.section-left__photo__ava {
+  width: 60%;
+}
+.section-left__name {
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  font-size: 21px;
+  color: rgb(45, 49, 49);
+}
+.section-left__profession {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 24px;
+  color: rgb(168, 186, 186);
+  background-color: rgb(64, 69, 64);
+  width: 250px;
+  text-align: center;
+}
+
+.section-right {
+  display: flex;
+  justify-content: space-around;
+
+  margin: 60px;
+}
+/* section-rigth  */
+.section-right__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.section-right__text__greeting {
+  font-family: "Outfit", sans-serif;
+  font-weight: 900;
+  font-size: 35px;
+  background-color: rgb(41, 22, 22);
+  text-align: center;
+
+  color: white;
+  width: 400px;
+  padding: 30px;
+}
+.section-right__text__info__1 {
+  color: white;
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 24px;
+  width: 440px;
+}
+.section-right__text__info {
+  color: white;
+  font-family: "Outfit";
+  font-weight: 400;
+  background-color: gray;
+  font-size: 20px;
+  width: 429px;
+}
+/* section info end */
+/* Skills start */
+.block {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(130, 165, 178);
+  margin: 20px 0px;
+}
+.block__skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  margin-bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.block__skills__tittle {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 24px;
+  color: white;
+}
+
+.block__skills__gr_tx {
+  display: flex;
+  flex-direction: column;
+}
+.block__skills__grafic {
+  /* display: flex;
+  flex-direction: column; */
+  writing-mode: vertical-rl;
+  transform: scale(-1);
+  height: 300px;
+}
+.block__skills__grafic__1 {
+  padding: 0px 50px;
+  color: rgb(190, 52, 52);
+  border-top: 5px solid rgb(73, 117, 117);
+  font-size: 20px;
+  padding-top: 20px;
+}
+span {
+}
+.block__skills__text {
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  writing-mode: vertical-rl;
+  transform: scale(-1);
+  margin-top: 10px;
+}
+.block__skills__txt {
+  border: 1px solid white;
+  text-align: center;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 20px;
+  color: white;
+  padding: 48px;
+}
+
+/* info and facts start */
+.block__info {
+  display: flex;
+  flex-direction: column;
+  background: url(./media/resume_headings.jpg);
+
+  background-repeat: no-repeat;
+  align-items: center;
+  padding: 40px 0px;
+}
+.block__info__center {
+  margin-bottom: 20px;
+}
+.block__info__txt {
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+}
+.block__info__txt__1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.3);
+  /* opacity: 0.8; */
+}
+.block__info__txt__2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.3);
+  /* opacity: 0.8; */
+}
+.block__info__txt__3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.3);
+  /* opacity: 0.8; */
+}
+
+/* .block__info__txt__left {
+  display: flex;
+
+  justify-content: space-evenly;
+}
+*/
+.block__info__txt__right {
+  color: black;
+} /*
+.block__info__txt__black_ul {
+  text-align: left;
+} */
+.block__info__txt__black {
+  width: 380px;
+  padding: 30px 81px;
+}
+.block__info__txt__left {
+  color: white;
+
+  width: 500px;
+  padding: 30px 160px;
+}
+.block__info__txt__black_ul {
+  width: 380px;
+  padding: 30px 81px;
+}
+/* info n facts end */
+
+/* somthing else - start */
+.something-else {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+  padding: 30px;
+  color: white;
+  font-size: 24px;
+  background: url(./media/what_does_a_cover_letter_look_like_3.jpg);
+}
+.something-else__tab {
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: 40px;
+}
+/* something else - end */
+/* footer - start */
+footer {
+  background-color: rgb(14, 28, 34);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer__txt {
+  text-align: center;
+  margin: 30px;
+  background-color: #6f4e37;
+  color: white;
+  width: 200px;
+  height: 300px;
+}
+.pls {
+  padding-top: 250px;
+}
+.footer__contacts {
+  color: white;
+  padding: 20px;
+}
+.footer__contacts__telegram {
+  padding-top: 30px;
+}
+
+/* footer - end */
